@@ -1,0 +1,90 @@
+# ==========================================
+# 1. PYTHON (PC-applikasjon, mønstergenerator)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# 2. C++ & MIKROKONTROLLER (ESP32 / Arduino / PlatformIO)
+# ==========================================
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+*.bak
+*.d
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.elf
+*.bin
+*.hex
+
+# ==========================================
+# 3. SOLIDWORKS CAD-FILER
+# ==========================================
+# Ignorerer store 3D-modeller og samlinger (anbefales å lagres i f.eks. GrabCAD/Drive i stedet for Git)
+*.sldprt
+*.sldasm
+*.slddrw
+
+# SolidWorks midlertidige filer og sikkerhetskopier (åpne filer starter ofte med ~$ )
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+*.bak
+*.sldbak
+*-[0-9].sldprt
+*-[0-9].sldasm
+
+# ==========================================
+# 4. UTVIKLINGSVERKTØY (VS Code, JetBrains)
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# 5. OPERATIVSYSTEMER
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
